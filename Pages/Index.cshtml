@@ -1,0 +1,54 @@
+﻿@page "/"
+
+<h1>Everyone loves Pizza! <h1>
+
+Welcome to my new app.
+<!-- Menu -->
+@foreach (var pizza in State.Menu.Pizzas)
+{
+    <div class="row">
+        <div class="col">
+            @pizza.Name
+        </div>
+        <div class="col">
+            <img src="@SpiciniessImage(pizza.Spiciness)"
+                alt="@pizza.Spiciness" />
+        </div>
+        <div class="col">
+            <button class="btn btn-success"
+                onclick="@(() => AddToBasket(pizza))">
+                Add
+            </button>
+        </div>
+    </div>
+}
+<!-- End Menu -->
+
+@functions {
+    private State State { get; } = new State()
+    {
+        Menu = new Menu
+        {
+            Pizzas = new List<Pizza>
+            {
+                new Pizza(1, "Pepperoni", 8.99M, Spiciness.Spicy),
+                new Pizza(2, "Margarita", 7.99M, Spiciness.None),
+                new Pizza(3, "Diablo", 9.99M, Spiciness.Hot)
+            }
+        }
+    };
+
+    private string SpicinessImage(Spiciness spiciness)
+    => $"images/{spiciness.ToString().ToLower()}.png";
+
+    public void AddToBasket(Pizza pizza)
+    {
+        Console.WriteLine($"Added pizza {pizza.Name}");
+        State.Basket.Add(pizza.Id);
+    }
+
+    public void Add(int pizzaId)
+    {
+        Orders.Add(pizzaId);
+    }
+}

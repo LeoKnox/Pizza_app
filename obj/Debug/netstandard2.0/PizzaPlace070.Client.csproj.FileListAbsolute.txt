@@ -1,0 +1,9 @@
+/Users/Aelien/Documents/c#/PizzaPlace070/PizzaPlace070.Client/obj/Debug/netstandard2.0/PizzaPlace070.Client.csprojAssemblyReference.cache
+/Users/Aelien/Documents/c#/PizzaPlace070/PizzaPlace070.Client/obj/Debug/netstandard2.0/PizzaPlace070.Client.csproj.CoreCompileInputs.cache
+/Users/Aelien/Documents/c#/PizzaPlace070/PizzaPlace070.Client/obj/Debug/netstandard2.0/PizzaPlace070.Client.RazorComponent.input.cache
+/Users/Aelien/Documents/c#/PizzaPlace070/PizzaPlace070.Client/obj/Debug/netstandard2.0/RazorDeclaration/App.cshtml.g.cs
+/Users/Aelien/Documents/c#/PizzaPlace070/PizzaPlace070.Client/obj/Debug/netstandard2.0/RazorDeclaration/Pages/Index.cshtml.g.cs
+/Users/Aelien/Documents/c#/PizzaPlace070/PizzaPlace070.Client/obj/Debug/netstandard2.0/RazorDeclaration/Pages/_ViewImports.cshtml.g.cs
+/Users/Aelien/Documents/c#/PizzaPlace070/PizzaPlace070.Client/obj/Debug/netstandard2.0/RazorDeclaration/Shared/MainLayout.cshtml.g.cs
+/Users/Aelien/Documents/c#/PizzaPlace070/PizzaPlace070.Client/obj/Debug/netstandard2.0/RazorDeclaration/Shared/NavMenu.cshtml.g.cs
+/Users/Aelien/Documents/c#/PizzaPlace070/PizzaPlace070.Client/obj/Debug/netstandard2.0/RazorDeclaration/_ViewImports.cshtml.g.cs
